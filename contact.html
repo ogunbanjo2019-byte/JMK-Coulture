@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | JMR Classic Couture</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>JMK Classic Couture</h1>
+        </div>
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <a href="https://wa.me/2348134678321" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <section class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <p style="text-align: center; max-width: 800px; margin: -40px auto 60px; color: #666;">Have a question about our products or need a custom design? We're here to help! Reach out to us through any of the channels below, and we'll get back to you as soon as possible.</p>
+        
+        <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center;">
+            <div class="card" style="flex: 1; min-width: 300px; max-width: 500px; text-align: left;">
+                <div class="card-content">
+                    <h3 style="color: var(--primary-color); margin-bottom: 25px;">Contact Information</h3>
+                    <div style="margin-bottom: 25px; display: flex; align-items: center; gap: 20px;">
+                        <div style="background: #25D366; color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                            <i class="fab fa-whatsapp fa-lg"></i>
+                        </div>
+                        <div>
+                            <p style="font-weight: bold; margin-bottom: 0;">WhatsApp (Direct Owner)</p>
+                            <a href="https://wa.me/2348134678321" target="_blank" style="text-decoration: none; color: var(--primary-color); font-weight: 600;">+234 813 467 8321</a>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 25px; display: flex; align-items: center; gap: 20px;">
+                        <div style="background: var(--primary-color); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </div>
+                        <div>
+                            <p style="font-weight: bold; margin-bottom: 0;">Email Support</p>
+                            <a href="mailto:oladelejumoke@gmail.com" style="text-decoration: none; color: var(--primary-color); font-weight: 600;">oladelejumoke@gmail.com</a>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 25px; display: flex; align-items: center; gap: 20px;">
+                        <div style="background: #E1306C; color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </div>
+                        <div>
+                            <p style="font-weight: bold; margin-bottom: 0;">Instagram</p>
+                            <a href="https://instagram.com/oladele5015" target="_blank" style="text-decoration: none; color: var(--primary-color); font-weight: 600;">@oladele5015</a>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 25px; display: flex; align-items: center; gap: 20px;">
+                        <div style="background: #000; color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                            <i class="fab fa-tiktok fa-lg"></i>
+                        </div>
+                        <div>
+                            <p style="font-weight: bold; margin-bottom: 0;">TikTok</p>
+                            <a href="https://tiktok.com/@oladelejumoke" target="_blank" style="text-decoration: none; color: var(--primary-color); font-weight: 600;">@oladelejumoke</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card" style="flex: 1; min-width: 300px; max-width: 500px;">
+                <div class="card-content">
+                    <h3 style="color: var(--primary-color); margin-bottom: 25px;">Send a Message</h3>
+                    <form id="contact-form" style="display: flex; flex-direction: column; gap: 20px; text-align: left;">
+                        <div>
+                            <label for="name" style="display: block; margin-bottom: 8px; font-weight: 600;">Full Name</label>
+                            <input type="text" id="name" placeholder="Enter your name" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; outline: none;">
+                        </div>
+                        <div>
+                            <label for="email" style="display: block; margin-bottom: 8px; font-weight: 600;">Email Address</label>
+                            <input type="email" id="email" placeholder="Enter your email" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; outline: none;">
+                        </div>
+                        <div>
+                            <label for="subject" style="display: block; margin-bottom: 8px; font-weight: 600;">Subject</label>
+                            <select id="subject" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; outline: none;">
+                                <option>General Inquiry</option>
+                                <option>Custom Design Request</option>
+                                <option>Order Status</option>
+                                <option>Feedback</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" style="display: block; margin-bottom: 8px; font-weight: 600;">Your Message</label>
+                            <textarea id="message" rows="5" placeholder="How can we help you?" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; outline: none;"></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>JMK Classic Couture</h4>
+                <p>Your one-stop shop for classy and trendy looks. We deal in all kinds of Autogele, Nightwear, Abayas, Jewelry, Bags, and Shoes.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop Collection</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p><i class="fab fa-whatsapp"></i> +234 813 467 8321</p>
+                <p><i class="fas fa-envelope"></i> oladelejumoke@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria (Nationwide Delivery)</p>
+            </div>
+        </div>
+        <div class="social-links" style="margin-top: 0;">
+            <a href="https://instagram.com/oladele5015" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com/@oladelejumoke" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p style="font-size: 0.8rem; opacity: 0.6; margin-top: 20px;">&copy; 2026 JMK Classic Couture. Crafted with Elegance.</p>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

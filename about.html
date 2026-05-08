@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story | JMR Classic Couture</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>JMK Classic Couture</h1>
+        </div>
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <a href="https://wa.me/2348134678321" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <section class="container">
+        <h2 class="section-title">The Essence of Jumoke Classic Couture</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 60px; align-items: flex-start;">
+            <div style="flex: 1; min-width: 300px;">
+                <img src="assets/images/sis jummy .jpeg" alt="JMR Classic Couture Flyer" style="width: 100%; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.15);">
+            </div>
+            <div style="flex: 1.5; min-width: 300px;">
+                <h3 style="color: var(--primary-color); margin-bottom: 25px; font-size: 2rem;">Where Tradition Meets Modern Elegance</h3>
+                <p style="margin-bottom: 20px;">Founded on the principles of <strong>Style, Elegance, and Confidence</strong>, JMR Classic Couture has grown from a passion project into a premier destination for high-quality African fashion. Our journey began with a simple goal: to make luxury fashion accessible to every woman who wants to look her best without compromising on comfort or cultural heritage.</p>
+                
+                <p style="margin-bottom: 20px;">We specialize in a diverse range of attires that cater to various aspects of a woman's life. From our revolutionary <strong>Autogeles</strong> that have simplified the art of head-wrapping, to our luxurious <strong>Nightwear</strong> and modest yet stylish <strong>Abayas</strong>, every piece in our collection is a testament to our commitment to quality.</p>
+
+                <p style="margin-bottom: 20px;">Our founder, Jumoke Oladele, believes that fashion is the ultimate form of self-expression. "Every stitch we make and every fabric we select is chosen with the modern woman in mind—someone who is bold, confident, and unapologetically herself," she says.</p>
+
+                <div style="background: var(--gray-light); padding: 30px; border-radius: 15px; margin: 30px 0;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 15px;">Our Core Values</h4>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-right: 10px;"></i> <strong>Quality Craftsmanship:</strong> We never settle for less than perfection.</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-right: 10px;"></i> <strong>Customer Satisfaction:</strong> Your happiness is our primary motivation.</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-right: 10px;"></i> <strong>Integrity:</strong> We build trust through transparency and reliability.</li>
+                    </ul>
+                </div>
+
+                <p style="margin-bottom: 30px;">Today, JMK Classic Couture is proud to serve thousands of clients across Nigeria and the globe. We continue to innovate and expand our collections, always keeping our promise to deliver "Classy & Trendy Looks" right to your doorstep.</p>
+                
+                <a href="shop.html" class="btn">Shop the Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>JMK Classic Couture</h4>
+                <p>Your one-stop shop for classy and trendy looks. We deal in all kinds of Autogele, Nightwear, Abayas, Jewelry, Bags, and Shoes.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop Collection</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p><i class="fab fa-whatsapp"></i> +234 813 467 8321</p>
+                <p><i class="fas fa-envelope"></i> oladelejumoke@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria (Nationwide Delivery)</p>
+            </div>
+        </div>
+        <div class="social-links" style="margin-top: 0;">
+            <a href="https://instagram.com/oladele5015" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com/@oladelejumoke" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p style="font-size: 0.8rem; opacity: 0.6; margin-top: 20px;">&copy; 2026 JMK Classic Couture. Crafted with Elegance.</p>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
